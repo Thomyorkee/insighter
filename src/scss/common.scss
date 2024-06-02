@@ -32,6 +32,11 @@ p {
   letter-spacing: -0.005em;
 }
 
+h3, span {
+  font-family: $font;
+  letter-spacing: -0.005em;
+}
+
 input {
   -webkit-appearance: none;
   -moz-appearance: none;
