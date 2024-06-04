@@ -11,7 +11,7 @@ interface EventCardProps {
 //이벤트 카드, 이벤트 리스트 페이지에서 map을 통해 나열
 const EventCard: React.FC<EventCardProps> = ({ event }) => {
   const navigate = useNavigate();
-  const [isModalOpen, setIsModalOpen] = useState<Boolean>(false);
+  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   /**
    * 이벤트 삭제를 처리하는 비동기 함수
    */

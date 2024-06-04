@@ -3,7 +3,7 @@ import "../../scss/footer.scss";
 
 const Footer: React.FC = () => {
   return (
-    <header className="footer">
+    <footer className="footer">
       <div/>
       <section>
         <p>인사이터 - 프론트엔드 과제 테스트</p>
@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
         <p>kjh199201@gmail.com</p>
       </section>
       <div/>
-    </header>
+    </footer>
   );
 };
 
